@@ -13,3 +13,14 @@ ul li {
     color: lightgreen;
 }
 
+.reveal .blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, start);
+}
+@keyframes blink {
+    55% {
+        visibility: hidden;
+    }
+}
